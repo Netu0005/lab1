@@ -1,8 +1,8 @@
 #include <stdio.h>
 typedef struct
 {
-        char str[3];
         int num;
+        char str[5];
 } NumberRepr;
 void format(NumberRepr* number)
 {
